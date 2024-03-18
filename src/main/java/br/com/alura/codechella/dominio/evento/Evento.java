@@ -1,6 +1,5 @@
 package br.com.alura.codechella.dominio.evento;
 
-import br.com.alura.codechella.Categoria;
 import br.com.alura.codechella.dominio.ingresso.TipoIngresso;
 
 import java.time.LocalDateTime;
