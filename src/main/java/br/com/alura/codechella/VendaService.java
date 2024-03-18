@@ -49,7 +49,7 @@ public class VendaService {
         List<DadosTipoIngresso> ingressos =
                 venda.getIngressos().stream()
                         .map(i -> new DadosTipoIngresso(i.getCodigo(),
-                                i.getTipo().getFormato(), i.getTipo().getDefinicao()))
+                                i.getTipo().getSetor(), i.getTipo().getDefinicao()))
                         .collect(Collectors.toList());
 
 

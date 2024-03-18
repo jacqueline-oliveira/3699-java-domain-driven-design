@@ -27,7 +27,7 @@ public class EventoService {
 
     private DadosEvento converteDados(Evento evento) {
         List<DadosCadastroTipoIngresso> dadosIngressos = evento.getTipoIngressos().stream()
-                .map(i -> new DadosCadastroTipoIngresso(i.getFormato(), i.getDefinicao(),
+                .map(i -> new DadosCadastroTipoIngresso(i.getSetor(), i.getDefinicao(),
                         i.getValor(), i.getTotalDisponivel()))
                 .collect(Collectors.toList());
 

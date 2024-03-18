@@ -1,6 +1,6 @@
 package br.com.alura.codechella;
 
-public enum Formato {
+public enum Setor {
     PISTA,
     PISTA_PREMIUM,
     CADEIRA,
